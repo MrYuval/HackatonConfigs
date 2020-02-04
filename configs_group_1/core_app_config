@@ -7,7 +7,7 @@
 		},
 		"1":	{
 			"name":	"VersionMajor",
-			"value":	8,
+			"value":	4,
 			"type":	"uint"
 		},
 		"2":	{
