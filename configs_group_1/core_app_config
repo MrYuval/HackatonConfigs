@@ -1,0 +1,7915 @@
+{
+	"SysParams":	{
+		"0":	{
+			"name":	"ID",
+			"value":	21232143,
+			"type":	"uint"
+		},
+		"1":	{
+			"name":	"VersionMajor",
+			"value":	4,
+			"type":	"uint"
+		},
+		"2":	{
+			"name":	"VersionMinor",
+			"value":	9,
+			"type":	"uint"
+		},
+		"3":	{
+			"name":	"Inv. Mngr ID Mask",
+			"value":	8388608,
+			"type":	"uint"
+		},
+		"4":	{
+			"name":	"Model",
+			"value":	9,
+			"type":	"stringidx"
+		},
+		"5":	{
+			"name":	"Serial Number",
+			"value":	10,
+			"type":	"stringidx"
+		},
+		"6":	{
+			"name":	"Enable Wireless",
+			"value":	1,
+			"type":	"uint"
+		},
+		"7":	{
+			"name":	"Enable RS485",
+			"value":	1,
+			"type":	"uint"
+		},
+		"8":	{
+			"name":	"Enable TCP",
+			"value":	1,
+			"type":	"uint"
+		},
+		"9":	{
+			"name":	"Enable DHCP",
+			"value":	1,
+			"type":	"uint"
+		},
+		"10":	{
+			"name":	"PowerCalibrationFactor(1/1000)",
+			"value":	30,
+			"type":	"int"
+		},
+		"11":	{
+			"name":	"MAC OUI Addr.",
+			"value":	9986,
+			"type":	"uint"
+		},
+		"12":	{
+			"name":	"StaticIP",
+			"value":	0,
+			"type":	"stringidx"
+		},
+		"13":	{
+			"name":	"StaticSubnet",
+			"value":	1,
+			"type":	"stringidx"
+		},
+		"14":	{
+			"name":	"StaticGateway",
+			"value":	2,
+			"type":	"stringidx"
+		},
+		"15":	{
+			"name":	"StaticDNS",
+			"value":	3,
+			"type":	"stringidx"
+		},
+		"16":	{
+			"name":	"ServerIP1",
+			"value":	4,
+			"type":	"stringidx"
+		},
+		"17":	{
+			"name":	"ServerIP2",
+			"value":	5,
+			"type":	"stringidx"
+		},
+		"18":	{
+			"name":	"ServerIP3",
+			"value":	6,
+			"type":	"stringidx"
+		},
+		"19":	{
+			"name":	"ServerPort1",
+			"value":	22222,
+			"type":	"uint"
+		},
+		"20":	{
+			"name":	"TcpConnectionTimeout[ms]",
+			"value":	300000,
+			"type":	"uint"
+		},
+		"21":	{
+			"name":	"EthernetStatus",
+			"value":	0,
+			"type":	"uint"
+		},
+		"22":	{
+			"name":	"WatchdogEnable",
+			"value":	1,
+			"type":	"uint"
+		},
+		"23":	{
+			"name":	"RTC Enable Update ",
+			"value":	1,
+			"type":	"uint"
+		},
+		"24":	{
+			"name":	"RTC GMT Offset [s]",
+			"value":	0,
+			"type":	"int"
+		},
+		"25":	{
+			"name":	"StreamServer",
+			"value":	3,
+			"type":	"int"
+		},
+		"26":	{
+			"name":	"StreamIO",
+			"value":	1,
+			"type":	"int"
+		},
+		"27":	{
+			"name":	"EnableIO (0-1)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"28":	{
+			"name":	"ServerCmdTimeout [ms]",
+			"value":	20000,
+			"type":	"uint"
+		},
+		"29":	{
+			"name":	"FifoFlushTimeout [ms]",
+			"value":	300000,
+			"type":	"uint"
+		},
+		"30":	{
+			"name":	"OptimizersListTimeout [ms]",
+			"value":	3600000,
+			"type":	"uint"
+		},
+		"31":	{
+			"name":	"Debug Options",
+			"value":	0,
+			"type":	"uint"
+		},
+		"32":	{
+			"name":	"LCD Enable Backlight Off",
+			"value":	1,
+			"type":	"uint"
+		},
+		"33":	{
+			"name":	"LCD Backlight OnTime [s]",
+			"value":	30,
+			"type":	"uint"
+		},
+		"34":	{
+			"name":	"LCD Telem Backlight OnTime [min]",
+			"value":	15,
+			"type":	"uint"
+		},
+		"35":	{
+			"name":	"LCD FilterUpdateTime [ms]",
+			"value":	400,
+			"type":	"uint"
+		},
+		"36":	{
+			"name":	"LCD FilterPrevWeight",
+			"value":	0.700000,
+			"type":	"float"
+		},
+		"37":	{
+			"name":	"LCD Refresh [ms]",
+			"value":	300,
+			"type":	"uint"
+		},
+		"38":	{
+			"name":	"LCD Shutdown Safe Vin",
+			"value":	55,
+			"type":	"uint"
+		},
+		"39":	{
+			"name":	"LCD Shutdown Safe Time ",
+			"value":	2500,
+			"type":	"uint"
+		},
+		"40":	{
+			"name":	"Setup Password (8 Digits)",
+			"value":	7,
+			"type":	"stringidx"
+		},
+		"41":	{
+			"name":	"Setup AbortTime [ms]",
+			"value":	300000,
+			"type":	"uint"
+		},
+		"42":	{
+			"name":	"Max Stack Usage (bytes)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"43":	{
+			"name":	"Setup Country ShortStr (4 Chars)",
+			"value":	8,
+			"type":	"stringidx"
+		},
+		"44":	{
+			"name":	"Setup Language Code",
+			"value":	0,
+			"type":	"uint"
+		},
+		"45":	{
+			"name":	"Setup Temperature (0-C, 1-F)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"46":	{
+			"name":	"Setup Enable Zone - North America",
+			"value":	0,
+			"type":	"uint"
+		},
+		"47":	{
+			"name":	"Setup Enable Zone - EUROPE",
+			"value":	0,
+			"type":	"uint"
+		},
+		"48":	{
+			"name":	"Setup Enable Zone - APAC",
+			"value":	0,
+			"type":	"uint"
+		},
+		"49":	{
+			"name":	"Setup Enable Zone - ALL",
+			"value":	1,
+			"type":	"uint"
+		},
+		"50":	{
+			"name":	"ZB Coordinator",
+			"value":	0,
+			"type":	"uint"
+		},
+		"51":	{
+			"name":	"ZB PAN ID (Low)",
+			"value":	4294967280,
+			"type":	"uint"
+		},
+		"52":	{
+			"name":	"ZB Scan Channels Mask (router)",
+			"value":	24574,
+			"type":	"uint"
+		},
+		"53":	{
+			"name":	"ZB Max Jitter Time [ms]",
+			"value":	200,
+			"type":	"uint"
+		},
+		"54":	{
+			"name":	"RS485 Master (Gateway)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"55":	{
+			"name":	"RS485 SlaveDetectPeriod[ms]",
+			"value":	2000,
+			"type":	"uint"
+		},
+		"56":	{
+			"name":	"RS485 SlaveDetectLoops",
+			"value":	10,
+			"type":	"uint"
+		},
+		"57":	{
+			"name":	"RS485 MasterGrantSlot[ms]",
+			"value":	200,
+			"type":	"uint"
+		},
+		"58":	{
+			"name":	"Num of RS485 Slaves",
+			"value":	0,
+			"type":	"uint"
+		},
+		"59":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"60":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"61":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"62":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"63":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"64":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"65":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"66":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"67":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"68":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"69":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"70":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"71":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"72":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"73":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"74":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"75":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"76":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"77":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"78":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"79":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"80":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"81":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"82":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"83":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"84":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"85":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"86":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"87":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"88":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"89":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"90":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"91":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"92":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"93":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"94":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"95":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"96":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"97":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"98":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"99":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"100":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"101":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"102":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"103":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"104":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"105":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"106":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"107":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"108":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"109":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"110":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"111":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"112":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"113":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"114":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"115":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"116":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"117":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"118":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"119":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"120":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"121":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"122":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"123":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"124":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"125":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"126":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"127":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"128":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"129":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"130":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"131":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"132":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"133":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"134":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"135":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"136":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"137":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"138":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"139":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"140":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"141":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"142":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"143":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"144":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"145":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"146":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"147":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"148":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"149":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"150":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"151":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"152":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"153":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"154":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"155":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"156":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"157":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"158":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"159":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"160":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"161":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"162":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"163":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"164":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"165":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"166":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"167":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"168":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"169":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"170":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"171":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"172":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"173":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"174":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"175":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"176":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"177":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"178":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"179":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"180":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"181":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"182":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"183":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"184":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"185":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"186":	{
+			"name":	"RS485 Slaves x 128 (59-186)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"187":	{
+			"name":	"PowerBalanceShutdown",
+			"value":	0,
+			"type":	"uint"
+		},
+		"188":	{
+			"name":	"Version Checksum",
+			"value":	28873,
+			"type":	"uint"
+		},
+		"189":	{
+			"name":	"Polestar Bus HW Stream 1",
+			"value":	2,
+			"type":	"int"
+		},
+		"190":	{
+			"name":	"ZB Coordinator Address H",
+			"value":	0,
+			"type":	"uint"
+		},
+		"191":	{
+			"name":	"ZB Coordinator Address L",
+			"value":	0,
+			"type":	"uint"
+		},
+		"192":	{
+			"name":	"RS-485 Com. Mode (0-M/S, 1-P2P)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"193":	{
+			"name":	"Product Type (0-8)",
+			"value":	9,
+			"type":	"uint"
+		},
+		"194":	{
+			"name":	"ZB Maximum Hops",
+			"value":	8,
+			"type":	"uint"
+		},
+		"195":	{
+			"name":	"RS232 Mode (0-Direct, 1-GSM)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"196":	{
+			"name":	"RS232 Modem Type (0-Manual)",
+			"value":	1,
+			"type":	"uint"
+		},
+		"197":	{
+			"name":	"GSM APN",
+			"value":	11,
+			"type":	"stringidx"
+		},
+		"198":	{
+			"name":	"GSM Username",
+			"value":	12,
+			"type":	"stringidx"
+		},
+		"199":	{
+			"name":	"GSM Password",
+			"value":	13,
+			"type":	"stringidx"
+		},
+		"200":	{
+			"name":	"RS232 Num of Connect Commands",
+			"value":	0,
+			"type":	"uint"
+		},
+		"201":	{
+			"name":	"RS232 Num of Disconnect Commands",
+			"value":	0,
+			"type":	"uint"
+		},
+		"202":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	14,
+			"type":	"stringidx"
+		},
+		"203":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	15,
+			"type":	"stringidx"
+		},
+		"204":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	16,
+			"type":	"stringidx"
+		},
+		"205":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	17,
+			"type":	"stringidx"
+		},
+		"206":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	18,
+			"type":	"stringidx"
+		},
+		"207":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	19,
+			"type":	"stringidx"
+		},
+		"208":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	20,
+			"type":	"stringidx"
+		},
+		"209":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	21,
+			"type":	"stringidx"
+		},
+		"210":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	22,
+			"type":	"stringidx"
+		},
+		"211":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	23,
+			"type":	"stringidx"
+		},
+		"212":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	24,
+			"type":	"stringidx"
+		},
+		"213":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	25,
+			"type":	"stringidx"
+		},
+		"214":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	26,
+			"type":	"stringidx"
+		},
+		"215":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	27,
+			"type":	"stringidx"
+		},
+		"216":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	28,
+			"type":	"stringidx"
+		},
+		"217":	{
+			"name":	"ZigBee HA SN x 16 (202-217)",
+			"value":	29,
+			"type":	"stringidx"
+		},
+		"218":	{
+			"name":	"UDP Broadcast IP",
+			"value":	30,
+			"type":	"stringidx"
+		},
+		"219":	{
+			"name":	"Battery SN x 4 (219-223)",
+			"value":	31,
+			"type":	"stringidx"
+		},
+		"220":	{
+			"name":	"Battery SN x 4 (219-223)",
+			"value":	32,
+			"type":	"stringidx"
+		},
+		"221":	{
+			"name":	"Battery SN x 4 (219-223)",
+			"value":	33,
+			"type":	"stringidx"
+		},
+		"222":	{
+			"name":	"Battery SN x 4 (219-223)",
+			"value":	34,
+			"type":	"stringidx"
+		},
+		"223":	{
+			"name":	"Bui Part Number",
+			"value":	35,
+			"type":	"stringidx"
+		},
+		"224":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	36,
+			"type":	"stringidx"
+		},
+		"225":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	37,
+			"type":	"stringidx"
+		},
+		"226":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	38,
+			"type":	"stringidx"
+		},
+		"227":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	39,
+			"type":	"stringidx"
+		},
+		"228":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	40,
+			"type":	"stringidx"
+		},
+		"229":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	41,
+			"type":	"stringidx"
+		},
+		"230":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	42,
+			"type":	"stringidx"
+		},
+		"231":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	43,
+			"type":	"stringidx"
+		},
+		"232":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	44,
+			"type":	"stringidx"
+		},
+		"233":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	45,
+			"type":	"stringidx"
+		},
+		"234":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	46,
+			"type":	"stringidx"
+		},
+		"235":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	47,
+			"type":	"stringidx"
+		},
+		"236":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	48,
+			"type":	"stringidx"
+		},
+		"237":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	49,
+			"type":	"stringidx"
+		},
+		"238":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	50,
+			"type":	"stringidx"
+		},
+		"239":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	51,
+			"type":	"stringidx"
+		},
+		"240":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	52,
+			"type":	"stringidx"
+		},
+		"241":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	53,
+			"type":	"stringidx"
+		},
+		"242":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	54,
+			"type":	"stringidx"
+		},
+		"243":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	55,
+			"type":	"stringidx"
+		},
+		"244":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	56,
+			"type":	"stringidx"
+		},
+		"245":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	57,
+			"type":	"stringidx"
+		},
+		"246":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	58,
+			"type":	"stringidx"
+		},
+		"247":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	59,
+			"type":	"stringidx"
+		},
+		"248":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	60,
+			"type":	"stringidx"
+		},
+		"249":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	61,
+			"type":	"stringidx"
+		},
+		"250":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	62,
+			"type":	"stringidx"
+		},
+		"251":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	63,
+			"type":	"stringidx"
+		},
+		"252":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	64,
+			"type":	"stringidx"
+		},
+		"253":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	65,
+			"type":	"stringidx"
+		},
+		"254":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	66,
+			"type":	"stringidx"
+		},
+		"255":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	67,
+			"type":	"stringidx"
+		},
+		"256":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	68,
+			"type":	"stringidx"
+		},
+		"257":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	69,
+			"type":	"stringidx"
+		},
+		"258":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	70,
+			"type":	"stringidx"
+		},
+		"259":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	71,
+			"type":	"stringidx"
+		},
+		"260":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	72,
+			"type":	"stringidx"
+		},
+		"261":	{
+			"name":	"Reserved Strings (224-261)",
+			"value":	73,
+			"type":	"stringidx"
+		},
+		"262":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"263":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"264":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"265":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"266":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"267":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"268":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"269":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"270":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"271":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"272":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"273":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"274":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"275":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"276":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"277":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"278":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"279":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"280":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"281":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"282":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"283":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"284":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"285":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"286":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"287":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"288":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"289":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"290":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"291":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"292":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"293":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"294":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"295":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"296":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"297":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"298":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"299":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"300":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"301":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"302":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"303":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"304":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"305":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"306":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"307":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"308":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"309":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"310":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"311":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"312":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"313":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"314":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"315":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"316":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"317":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"318":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"319":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"320":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"321":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"322":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"323":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"324":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"325":	{
+			"name":	"ZB Router MAC x 32 (262-325)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"326":	{
+			"name":	"Enable Inv Hw Reset",
+			"value":	1,
+			"type":	"uint"
+		},
+		"327":	{
+			"name":	"Jupiter Telems Period [ms] (0-Off)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"328":	{
+			"name":	"InvPoll PLC data size [bytes]",
+			"value":	13,
+			"type":	"uint"
+		},
+		"329":	{
+			"name":	"InvPoll PLC data timeout [sec]",
+			"value":	60,
+			"type":	"uint"
+		},
+		"330":	{
+			"name":	"HW Options (See params doc.)",
+			"value":	2441,
+			"type":	"uint"
+		},
+		"331":	{
+			"name":	"Polestar Bus HW Stream 2",
+			"value":	0,
+			"type":	"int"
+		},
+		"332":	{
+			"name":	"RTC Time",
+			"value":	1580821798,
+			"type":	"uint"
+		},
+		"333":	{
+			"name":	"System Local Time",
+			"value":	1580821798,
+			"type":	"uint"
+		},
+		"334":	{
+			"name":	"SE Modbus Slave Enable",
+			"value":	1,
+			"type":	"uint"
+		},
+		"335":	{
+			"name":	"SE Modbus Slave Device ID",
+			"value":	0,
+			"type":	"uint"
+		},
+		"336":	{
+			"name":	"SE Modbus Slave Permissions",
+			"value":	0,
+			"type":	"uint"
+		},
+		"337":	{
+			"name":	"Display Type (0-2)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"338":	{
+			"name":	"Day/Month/Year/Total Energy (338-342)",
+			"value":	0,
+			"type":	"float"
+		},
+		"339":	{
+			"name":	"Day/Month/Year/Total Energy (338-342)",
+			"value":	0,
+			"type":	"float"
+		},
+		"340":	{
+			"name":	"Day/Month/Year/Total Energy (338-342)",
+			"value":	0,
+			"type":	"float"
+		},
+		"341":	{
+			"name":	"Day/Month/Year/Total Energy (338-342)",
+			"value":	0,
+			"type":	"float"
+		},
+		"342":	{
+			"name":	"Day/Month/Year/Total Energy (338-342)",
+			"value":	0,
+			"type":	"float"
+		},
+		"343":	{
+			"name":	"XBee Channel Verification",
+			"value":	1,
+			"type":	"uint"
+		},
+		"344":	{
+			"name":	"XBee Join Notification",
+			"value":	0,
+			"type":	"uint"
+		},
+		"345":	{
+			"name":	"XBee NWD Timeout [Min x 3]",
+			"value":	16,
+			"type":	"uint"
+		},
+		"346":	{
+			"name":	"PCB SN",
+			"value":	74,
+			"type":	"stringidx"
+		},
+		"347":	{
+			"name":	"PCB PN",
+			"value":	75,
+			"type":	"stringidx"
+		},
+		"348":	{
+			"name":	"Cellular Modem Identifier",
+			"value":	76,
+			"type":	"stringidx"
+		},
+		"349":	{
+			"name":	"XBee Node Identifier String",
+			"value":	77,
+			"type":	"stringidx"
+		},
+		"350":	{
+			"name":	"Modem FW Version",
+			"value":	78,
+			"type":	"stringidx"
+		},
+		"351":	{
+			"name":	"Comments #1",
+			"value":	79,
+			"type":	"stringidx"
+		},
+		"352":	{
+			"name":	"Comments #2",
+			"value":	80,
+			"type":	"stringidx"
+		},
+		"353":	{
+			"name":	"Wi-Fi SSID",
+			"value":	81,
+			"type":	"stringidx"
+		},
+		"354":	{
+			"name":	"Wi-Fi Passphrase",
+			"value":	82,
+			"type":	"stringidx"
+		},
+		"355":	{
+			"name":	"Reserved (R&D)",
+			"value":	83,
+			"type":	"stringidx"
+		},
+		"356":	{
+			"name":	"SD card Enable",
+			"value":	0,
+			"type":	"int"
+		},
+		"357":	{
+			"name":	"SD card Max Fifo Volume(MB)",
+			"value":	250,
+			"type":	"int"
+		},
+		"358":	{
+			"name":	"SD card Status",
+			"value":	0,
+			"type":	"int"
+		},
+		"359":	{
+			"name":	"Version Upgrade Timestamp",
+			"value":	1580731743,
+			"type":	"uint"
+		},
+		"360":	{
+			"name":	"Wi-Fi Encryption",
+			"value":	0,
+			"type":	"uint"
+		},
+		"361":	{
+			"name":	"Virtual Meters Telem Enable",
+			"value":	988,
+			"type":	"uint"
+		},
+		"362":	{
+			"name":	"Ext. GPIO Cmd Period [ms] (0-Off)",
+			"value":	5000,
+			"type":	"uint"
+		},
+		"363":	{
+			"name":	"Ext. GPIO De-bounce Time [ms]",
+			"value":	150,
+			"type":	"uint"
+		},
+		"364":	{
+			"name":	"Ext. GPIO Failure Time [ms]",
+			"value":	5000,
+			"type":	"uint"
+		},
+		"365":	{
+			"name":	"RRCR Enable",
+			"value":	0,
+			"type":	"uint"
+		},
+		"366":	{
+			"name":	"ZB SlaveDetectPeriod[ms]",
+			"value":	3000,
+			"type":	"uint"
+		},
+		"367":	{
+			"name":	"ZB SlaveDetectLoops",
+			"value":	10,
+			"type":	"uint"
+		},
+		"368":	{
+			"name":	"ZB MasterGrantSlot[ms]",
+			"value":	1500,
+			"type":	"uint"
+		},
+		"369":	{
+			"name":	"Num of Reporting Optimizers",
+			"value":	0,
+			"type":	"uint"
+		},
+		"370":	{
+			"name":	"Num of Paired Optimizers",
+			"value":	0,
+			"type":	"uint"
+		},
+		"371":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"372":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"373":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"374":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"375":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"376":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"377":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"378":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"379":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"380":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"381":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"382":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"383":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"384":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"385":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"386":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"387":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"388":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"389":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"390":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"391":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"392":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"393":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"394":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"395":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"396":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"397":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"398":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"399":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"400":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"401":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"402":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"403":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"404":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"405":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"406":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"407":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"408":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"409":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"410":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"411":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"412":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"413":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"414":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"415":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"416":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"417":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"418":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"419":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"420":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"421":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"422":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"423":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"424":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"425":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"426":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"427":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"428":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"429":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"430":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"431":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"432":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"433":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"434":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"435":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"436":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"437":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"438":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"439":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"440":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"441":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"442":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"443":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"444":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"445":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"446":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"447":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"448":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"449":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"450":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"451":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"452":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"453":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"454":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"455":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"456":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"457":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"458":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"459":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"460":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"461":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"462":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"463":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"464":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"465":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"466":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"467":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"468":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"469":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"470":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"471":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"472":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"473":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"474":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"475":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"476":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"477":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"478":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"479":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"480":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"481":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"482":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"483":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"484":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"485":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"486":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"487":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"488":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"489":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"490":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"491":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"492":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"493":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"494":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"495":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"496":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"497":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"498":	{
+			"name":	"Optimizers x 128 (371-498)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"499":	{
+			"name":	"Lock on trip mask",
+			"value":	0,
+			"type":	"uint"
+		},
+		"500":	{
+			"name":	"DynPwrCtrl Fallback Method",
+			"value":	0,
+			"type":	"uint"
+		},
+		"501":	{
+			"name":	"Reserved x 16 (501-509)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"502":	{
+			"name":	"Reserved x 16 (501-509)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"503":	{
+			"name":	"Reserved x 16 (501-509)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"504":	{
+			"name":	"Reserved x 16 (501-509)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"505":	{
+			"name":	"Reserved x 16 (501-509)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"506":	{
+			"name":	"Reserved x 16 (501-509)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"507":	{
+			"name":	"Reserved x 16 (501-509)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"508":	{
+			"name":	"Reserved x 16 (501-509)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"509":	{
+			"name":	"Reserved x 16 (501-509)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"510":	{
+			"name":	"ESS Conf Lock Timer Start [Sec]",
+			"value":	604800,
+			"type":	"uint"
+		},
+		"511":	{
+			"name":	"ESS Conf Lock Timer [Sec]",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"512":	{
+			"name":	"ESS Operation Mode",
+			"value":	0,
+			"type":	"uint"
+		},
+		"513":	{
+			"name":	"Cellular Server Encryption Enabled",
+			"value":	0,
+			"type":	"uint"
+		},
+		"514":	{
+			"name":	"Num Of Succesful DspAutoDetectSave Recoveries",
+			"value":	0,
+			"type":	"uint"
+		},
+		"515":	{
+			"name":	"Num Of Save Params",
+			"value":	1188,
+			"type":	"uint"
+		},
+		"516":	{
+			"name":	"Error Log 1 - Time",
+			"value":	1580413707,
+			"type":	"uint"
+		},
+		"517":	{
+			"name":	"Error Log 1 - Code",
+			"value":	50331650,
+			"type":	"int"
+		},
+		"518":	{
+			"name":	"Error Log 2 - Time",
+			"value":	1580521785,
+			"type":	"uint"
+		},
+		"519":	{
+			"name":	"Error Log 2 - Code",
+			"value":	50331650,
+			"type":	"int"
+		},
+		"520":	{
+			"name":	"Error Log 3 - Time",
+			"value":	1580593837,
+			"type":	"uint"
+		},
+		"521":	{
+			"name":	"Error Log 3 - Code",
+			"value":	50331650,
+			"type":	"int"
+		},
+		"522":	{
+			"name":	"Error Log 4 - Time",
+			"value":	1580701823,
+			"type":	"uint"
+		},
+		"523":	{
+			"name":	"Error Log 4 - Code",
+			"value":	50331650,
+			"type":	"int"
+		},
+		"524":	{
+			"name":	"Error Log 5 - Time",
+			"value":	1580821468,
+			"type":	"uint"
+		},
+		"525":	{
+			"name":	"Error Log 5 - Code",
+			"value":	50331650,
+			"type":	"int"
+		},
+		"526":	{
+			"name":	"Warning Log 1 - Time",
+			"value":	0,
+			"type":	"uint"
+		},
+		"527":	{
+			"name":	"Warning Log 1 - Code",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"528":	{
+			"name":	"Warning Log 2 - Time",
+			"value":	0,
+			"type":	"uint"
+		},
+		"529":	{
+			"name":	"Warning Log 2 - Code",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"530":	{
+			"name":	"Warning Log 3 - Time",
+			"value":	0,
+			"type":	"uint"
+		},
+		"531":	{
+			"name":	"Warning Log 3 - Code",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"532":	{
+			"name":	"Warning Log 4 - Time",
+			"value":	0,
+			"type":	"uint"
+		},
+		"533":	{
+			"name":	"Warning Log 4 - Code",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"534":	{
+			"name":	"Warning Log 5 - Time",
+			"value":	0,
+			"type":	"uint"
+		},
+		"535":	{
+			"name":	"Warning Log 5 - Code",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"536":	{
+			"name":	"RRCR PowerLimit % 0",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"537":	{
+			"name":	"RRCR Cos(Phi) 0",
+			"value":	1,
+			"type":	"float"
+		},
+		"538":	{
+			"name":	"RRCR PowerLimit % 1",
+			"value":	0,
+			"type":	"uint"
+		},
+		"539":	{
+			"name":	"RRCR Cos(Phi) 1",
+			"value":	1,
+			"type":	"float"
+		},
+		"540":	{
+			"name":	"RRCR PowerLimit % 2",
+			"value":	30,
+			"type":	"uint"
+		},
+		"541":	{
+			"name":	"RRCR Cos(Phi) 2",
+			"value":	1,
+			"type":	"float"
+		},
+		"542":	{
+			"name":	"RRCR PowerLimit % 3",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"543":	{
+			"name":	"RRCR Cos(Phi) 3",
+			"value":	1,
+			"type":	"float"
+		},
+		"544":	{
+			"name":	"RRCR PowerLimit % 4",
+			"value":	60,
+			"type":	"uint"
+		},
+		"545":	{
+			"name":	"RRCR Cos(Phi) 4",
+			"value":	1,
+			"type":	"float"
+		},
+		"546":	{
+			"name":	"RRCR PowerLimit % 5",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"547":	{
+			"name":	"RRCR Cos(Phi) 5",
+			"value":	1,
+			"type":	"float"
+		},
+		"548":	{
+			"name":	"RRCR PowerLimit % 6",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"549":	{
+			"name":	"RRCR Cos(Phi) 6",
+			"value":	1,
+			"type":	"float"
+		},
+		"550":	{
+			"name":	"RRCR PowerLimit % 7",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"551":	{
+			"name":	"RRCR Cos(Phi) 7",
+			"value":	1,
+			"type":	"float"
+		},
+		"552":	{
+			"name":	"RRCR PowerLimit % 8",
+			"value":	100,
+			"type":	"uint"
+		},
+		"553":	{
+			"name":	"RRCR Cos(Phi) 8",
+			"value":	1,
+			"type":	"float"
+		},
+		"554":	{
+			"name":	"RRCR PowerLimit % 9",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"555":	{
+			"name":	"RRCR Cos(Phi) 9",
+			"value":	1,
+			"type":	"float"
+		},
+		"556":	{
+			"name":	"RRCR PowerLimit % 10",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"557":	{
+			"name":	"RRCR Cos(Phi) 10",
+			"value":	1,
+			"type":	"float"
+		},
+		"558":	{
+			"name":	"RRCR PowerLimit % 11",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"559":	{
+			"name":	"RRCR Cos(Phi) 11",
+			"value":	1,
+			"type":	"float"
+		},
+		"560":	{
+			"name":	"RRCR PowerLimit % 12",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"561":	{
+			"name":	"RRCR Cos(Phi) 12",
+			"value":	1,
+			"type":	"float"
+		},
+		"562":	{
+			"name":	"RRCR PowerLimit % 13",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"563":	{
+			"name":	"RRCR Cos(Phi) 13",
+			"value":	1,
+			"type":	"float"
+		},
+		"564":	{
+			"name":	"RRCR PowerLimit % 14",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"565":	{
+			"name":	"RRCR Cos(Phi) 14",
+			"value":	1,
+			"type":	"float"
+		},
+		"566":	{
+			"name":	"RRCR PowerLimit % 15",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"567":	{
+			"name":	"RRCR Cos(Phi) 15",
+			"value":	1,
+			"type":	"float"
+		},
+		"568":	{
+			"name":	"Activation Status",
+			"value":	1,
+			"type":	"int"
+		},
+		"569":	{
+			"name":	"Activation Magics x 10 (569-578)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"570":	{
+			"name":	"Activation Magics x 10 (569-578)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"571":	{
+			"name":	"Activation Magics x 10 (569-578)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"572":	{
+			"name":	"Activation Magics x 10 (569-578)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"573":	{
+			"name":	"Activation Magics x 10 (569-578)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"574":	{
+			"name":	"Activation Magics x 10 (569-578)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"575":	{
+			"name":	"Activation Magics x 10 (569-578)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"576":	{
+			"name":	"Activation Magics x 10 (569-578)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"577":	{
+			"name":	"Activation Magics x 10 (569-578)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"578":	{
+			"name":	"Activation Magics x 10 (569-578)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"579":	{
+			"name":	"AS",
+			"value":	84,
+			"type":	"stringidx"
+		},
+		"580":	{
+			"name":	"Activation Retries",
+			"value":	20,
+			"type":	"uint"
+		},
+		"581":	{
+			"name":	"Meter Telem Timeout [ms]",
+			"value":	300000,
+			"type":	"uint"
+		},
+		"582":	{
+			"name":	"RS485 Meter Slave ID (1)",
+			"value":	1,
+			"type":	"uint"
+		},
+		"583":	{
+			"name":	"S_OK Event Time [sec]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"584":	{
+			"name":	"ZB Scan Channels Mask (coordinator)",
+			"value":	8190,
+			"type":	"uint"
+		},
+		"585":	{
+			"name":	"Modbus Slave ID",
+			"value":	1,
+			"type":	"uint"
+		},
+		"586":	{
+			"name":	"Modbus Slave Channel Mask",
+			"value":	0,
+			"type":	"uint"
+		},
+		"587":	{
+			"name":	"SunSpec Slave Device Permissions",
+			"value":	5,
+			"type":	"uint"
+		},
+		"588":	{
+			"name":	"Modbus Router Bridge Enable",
+			"value":	1,
+			"type":	"uint"
+		},
+		"589":	{
+			"name":	"Modbus Ch0 HW Stream",
+			"value":	0,
+			"type":	"int"
+		},
+		"590":	{
+			"name":	"Modbus Ch1 HW Stream",
+			"value":	2,
+			"type":	"int"
+		},
+		"591":	{
+			"name":	"Modbus Ch2 HW Stream",
+			"value":	6,
+			"type":	"int"
+		},
+		"592":	{
+			"name":	"Modbus Ch3 HW Stream",
+			"value":	1,
+			"type":	"int"
+		},
+		"593":	{
+			"name":	"Modbus Ch4 HW Stream",
+			"value":	8,
+			"type":	"int"
+		},
+		"594":	{
+			"name":	"Modbus Ch5 HW Stream",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"595":	{
+			"name":	"Modbus Ch0 Protocol",
+			"value":	0,
+			"type":	"uint"
+		},
+		"596":	{
+			"name":	"Modbus Ch1 Protocol",
+			"value":	0,
+			"type":	"uint"
+		},
+		"597":	{
+			"name":	"Modbus Ch2 Protocol",
+			"value":	0,
+			"type":	"uint"
+		},
+		"598":	{
+			"name":	"Modbus Ch3 Protocol",
+			"value":	0,
+			"type":	"uint"
+		},
+		"599":	{
+			"name":	"Modbus Ch4 Protocol",
+			"value":	1,
+			"type":	"uint"
+		},
+		"600":	{
+			"name":	"Modbus Ch5 Protocol",
+			"value":	1,
+			"type":	"uint"
+		},
+		"601":	{
+			"name":	"ZigBee Com. Mode (0-M/S, 1-P2P)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"602":	{
+			"name":	"Num of Rs485-2  Slaves",
+			"value":	0,
+			"type":	"uint"
+		},
+		"603":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"604":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"605":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"606":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"607":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"608":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"609":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"610":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"611":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"612":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"613":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"614":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"615":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"616":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"617":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"618":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"619":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"620":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"621":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"622":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"623":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"624":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"625":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"626":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"627":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"628":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"629":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"630":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"631":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"632":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"633":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"634":	{
+			"name":	"Rs485-2 slaves x 32 (603-634)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"635":	{
+			"name":	"Obsolete 635",
+			"value":	0,
+			"type":	"uint"
+		},
+		"636":	{
+			"name":	"ZigBee Device",
+			"value":	0,
+			"type":	"int"
+		},
+		"637":	{
+			"name":	"RS232-1 Device",
+			"value":	0,
+			"type":	"int"
+		},
+		"638":	{
+			"name":	"RS485-1 Device",
+			"value":	0,
+			"type":	"int"
+		},
+		"639":	{
+			"name":	"TCP Client Device",
+			"value":	0,
+			"type":	"int"
+		},
+		"640":	{
+			"name":	"SPI Device",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"641":	{
+			"name":	"RS232-2 Device",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"642":	{
+			"name":	"RS485-2 Device",
+			"value":	0,
+			"type":	"int"
+		},
+		"643":	{
+			"name":	"Modbus (1) Device",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"644":	{
+			"name":	"Modbus (2) Device",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"645":	{
+			"name":	"Modbus (3) Device",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"646":	{
+			"name":	"Modbus (4) Device",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"647":	{
+			"name":	"Modbus (5) Device",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"648":	{
+			"name":	"ZigBee Protocol",
+			"value":	3,
+			"type":	"int"
+		},
+		"649":	{
+			"name":	"RS232-1 Protocol",
+			"value":	15,
+			"type":	"int"
+		},
+		"650":	{
+			"name":	"RS485-1 Protocol",
+			"value":	0,
+			"type":	"int"
+		},
+		"651":	{
+			"name":	"TCP Client Protocol",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"652":	{
+			"name":	"SPI Protocol",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"653":	{
+			"name":	"RS232-2 Protocol",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"654":	{
+			"name":	"RS485-2 Protocol",
+			"value":	0,
+			"type":	"int"
+		},
+		"655":	{
+			"name":	"Modbus (1) Protocol",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"656":	{
+			"name":	"Modbus (2) Protocol",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"657":	{
+			"name":	"Modbus (3) Protocol",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"658":	{
+			"name":	"Modbus (4) Protocol",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"659":	{
+			"name":	"Modbus (5) Protocol",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"660":	{
+			"name":	"SunSpec Telem Timeut [ms]",
+			"value":	300000,
+			"type":	"uint"
+		},
+		"661":	{
+			"name":	"PARAM_RESERVED_661",
+			"value":	0,
+			"type":	"uint"
+		},
+		"662":	{
+			"name":	"TCP HW Interface",
+			"value":	0,
+			"type":	"uint"
+		},
+		"663":	{
+			"name":	"Sensors Telem Timeout [ms]",
+			"value":	300000,
+			"type":	"uint"
+		},
+		"664":	{
+			"name":	"Sensor 0 Type",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"665":	{
+			"name":	"Sensor 1 Type",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"666":	{
+			"name":	"Sensor 2 Type",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"667":	{
+			"name":	"Sensor 0 Range",
+			"value":	0,
+			"type":	"uint"
+		},
+		"668":	{
+			"name":	"Sensor 1 Range",
+			"value":	0,
+			"type":	"uint"
+		},
+		"669":	{
+			"name":	"Sensor 2 Range",
+			"value":	0,
+			"type":	"uint"
+		},
+		"670":	{
+			"name":	"Sensor 0 X0",
+			"value":	0,
+			"type":	"float"
+		},
+		"671":	{
+			"name":	"Sensor 0 Y0",
+			"value":	0,
+			"type":	"float"
+		},
+		"672":	{
+			"name":	"Sensor 0 X1",
+			"value":	1,
+			"type":	"float"
+		},
+		"673":	{
+			"name":	"Sensor 0 Y1",
+			"value":	1000,
+			"type":	"float"
+		},
+		"674":	{
+			"name":	"Sensor 1 X0",
+			"value":	0,
+			"type":	"float"
+		},
+		"675":	{
+			"name":	"Sensor 1 Y0",
+			"value":	-50,
+			"type":	"float"
+		},
+		"676":	{
+			"name":	"Sensor 1 X1",
+			"value":	10,
+			"type":	"float"
+		},
+		"677":	{
+			"name":	"Sensor 1 Y1",
+			"value":	50,
+			"type":	"float"
+		},
+		"678":	{
+			"name":	"Sensor 2 X0",
+			"value":	4,
+			"type":	"float"
+		},
+		"679":	{
+			"name":	"Sensor 2 Y0",
+			"value":	-10,
+			"type":	"float"
+		},
+		"680":	{
+			"name":	"Sensor 2 X1",
+			"value":	20,
+			"type":	"float"
+		},
+		"681":	{
+			"name":	"Sensor 2 Y1",
+			"value":	120,
+			"type":	"float"
+		},
+		"682":	{
+			"name":	"VersionBuild",
+			"value":	18,
+			"type":	"uint"
+		},
+		"683":	{
+			"name":	"ZigBee Tx Power",
+			"value":	4,
+			"type":	"uint"
+		},
+		"684":	{
+			"name":	"FIFO Max Page Size (Bytes)",
+			"value":	512,
+			"type":	"uint"
+		},
+		"685":	{
+			"name":	"ServerPort3",
+			"value":	80,
+			"type":	"uint"
+		},
+		"686":	{
+			"name":	"Sensor 0 Range 0 Gain",
+			"value":	1.460000,
+			"type":	"float"
+		},
+		"687":	{
+			"name":	"Sensor 0 Range 0 Offset",
+			"value":	0.044000,
+			"type":	"float"
+		},
+		"688":	{
+			"name":	"Sensor 0 Range 1 Gain",
+			"value":	0.092000,
+			"type":	"float"
+		},
+		"689":	{
+			"name":	"Sensor 0 Range 1 Offset",
+			"value":	0.290000,
+			"type":	"float"
+		},
+		"690":	{
+			"name":	"Sensor 1 Range 0 Gain",
+			"value":	1.500000,
+			"type":	"float"
+		},
+		"691":	{
+			"name":	"Sensor 1 Range 0 Offset",
+			"value":	0.046000,
+			"type":	"float"
+		},
+		"692":	{
+			"name":	"Sensor 1 Range 1 Gain",
+			"value":	0.290000,
+			"type":	"float"
+		},
+		"693":	{
+			"name":	"Sensor 1 Range 1 Offset",
+			"value":	0.008200,
+			"type":	"float"
+		},
+		"694":	{
+			"name":	"Sensor 2 Range 0 Gain",
+			"value":	-0.059000,
+			"type":	"float"
+		},
+		"695":	{
+			"name":	"Sensor 2 Range 0 Offset",
+			"value":	1.660000,
+			"type":	"float"
+		},
+		"696":	{
+			"name":	"SW Options (See params doc.)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"697":	{
+			"name":	"Ext. GPIO",
+			"value":	1,
+			"type":	"uint"
+		},
+		"698":	{
+			"name":	"Fire Safety Enable",
+			"value":	1,
+			"type":	"uint"
+		},
+		"699":	{
+			"name":	"Fire Safety Polarity {L2,L1}",
+			"value":	0,
+			"type":	"uint"
+		},
+		"700":	{
+			"name":	"Fire Safety Alarm Clear Mode (A/M))",
+			"value":	0,
+			"type":	"uint"
+		},
+		"701":	{
+			"name":	"Fire Safety Safe VDC",
+			"value":	120,
+			"type":	"uint"
+		},
+		"702":	{
+			"name":	"FIFO Telem Write Policy 1 Time [sec]",
+			"value":	1500,
+			"type":	"uint"
+		},
+		"703":	{
+			"name":	"FIFO Telem Write Policy 1 Percent",
+			"value":	75,
+			"type":	"float"
+		},
+		"704":	{
+			"name":	"FIFO Telem Write Policy 2 Time [sec]",
+			"value":	900,
+			"type":	"uint"
+		},
+		"705":	{
+			"name":	"FIFO Telem Write Policy 2 Percent",
+			"value":	50,
+			"type":	"float"
+		},
+		"706":	{
+			"name":	"FIFO Telem Write Policy 3 Time [sec]",
+			"value":	600,
+			"type":	"uint"
+		},
+		"707":	{
+			"name":	"FIFO Telem Write Policy 3 Percent",
+			"value":	25,
+			"type":	"float"
+		},
+		"708":	{
+			"name":	"Board Replacement Kit",
+			"value":	0,
+			"type":	"uint"
+		},
+		"709":	{
+			"name":	"Pairing Session ID",
+			"value":	0,
+			"type":	"uint"
+		},
+		"710":	{
+			"name":	"MAC NIC Addr.",
+			"value":	0,
+			"type":	"uint"
+		},
+		"711":	{
+			"name":	"FIFO Pages Num",
+			"value":	2994,
+			"type":	"uint"
+		},
+		"712":	{
+			"name":	"Activation PN",
+			"value":	0,
+			"type":	"uint"
+		},
+		"713":	{
+			"name":	"Country Enable 0",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"714":	{
+			"name":	"Country Enable 1",
+			"value":	4294901757,
+			"type":	"uint"
+		},
+		"715":	{
+			"name":	"Country Enable 2",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"716":	{
+			"name":	"Country Enable 3",
+			"value":	4273864703,
+			"type":	"uint"
+		},
+		"717":	{
+			"name":	"Country Enable 4",
+			"value":	4294703102,
+			"type":	"uint"
+		},
+		"718":	{
+			"name":	"Country Enable x 5 (718-722)",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"719":	{
+			"name":	"Country Enable x 5 (718-722)",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"720":	{
+			"name":	"Country Enable x 5 (718-722)",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"721":	{
+			"name":	"Country Enable x 5 (718-722)",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"722":	{
+			"name":	"Country Enable x 5 (718-722)",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"723":	{
+			"name":	"Server Data Mode",
+			"value":	1,
+			"type":	"uint"
+		},
+		"724":	{
+			"name":	"ZB PAN Hoping",
+			"value":	1,
+			"type":	"uint"
+		},
+		"725":	{
+			"name":	"ZB PAN ID Bank Size",
+			"value":	0,
+			"type":	"uint"
+		},
+		"726":	{
+			"name":	"ZB PAN ID 0",
+			"value":	6839,
+			"type":	"uint"
+		},
+		"727":	{
+			"name":	"ZB PAN ID 1",
+			"value":	6840,
+			"type":	"uint"
+		},
+		"728":	{
+			"name":	"ZB PAN ID 2",
+			"value":	6841,
+			"type":	"uint"
+		},
+		"729":	{
+			"name":	"ZB PAN ID 3",
+			"value":	6842,
+			"type":	"uint"
+		},
+		"730":	{
+			"name":	"ZB PAN ID 4",
+			"value":	6843,
+			"type":	"uint"
+		},
+		"731":	{
+			"name":	"ZB PAN ID 5",
+			"value":	6844,
+			"type":	"uint"
+		},
+		"732":	{
+			"name":	"ZB PAN ID 6",
+			"value":	6845,
+			"type":	"uint"
+		},
+		"733":	{
+			"name":	"ZB PAN ID 7",
+			"value":	6846,
+			"type":	"uint"
+		},
+		"734":	{
+			"name":	"ZB PAN ID 8",
+			"value":	6847,
+			"type":	"uint"
+		},
+		"735":	{
+			"name":	"ZB PAN ID 9",
+			"value":	6848,
+			"type":	"uint"
+		},
+		"736":	{
+			"name":	"Inverter HW Stream",
+			"value":	13,
+			"type":	"int"
+		},
+		"737":	{
+			"name":	"Disp. Board HW Stream",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"738":	{
+			"name":	"Inv. Bus Mngr Grant Slot [ms]",
+			"value":	100,
+			"type":	"uint"
+		},
+		"739":	{
+			"name":	"ZigBee Stack",
+			"value":	2,
+			"type":	"uint"
+		},
+		"740":	{
+			"name":	"RS485-1 Baudrate",
+			"value":	7,
+			"type":	"uint"
+		},
+		"741":	{
+			"name":	"RS485-2 Baudrate",
+			"value":	7,
+			"type":	"uint"
+		},
+		"742":	{
+			"name":	"Inv. DSP Versions x 2 (742-747)",
+			"value":	1,
+			"type":	"uint"
+		},
+		"743":	{
+			"name":	"Inv. DSP Versions x 2 (742-747)",
+			"value":	13,
+			"type":	"uint"
+		},
+		"744":	{
+			"name":	"Inv. DSP Versions x 2 (742-747)",
+			"value":	1140,
+			"type":	"uint"
+		},
+		"745":	{
+			"name":	"Inv. DSP Versions x 2 (742-747)",
+			"value":	2,
+			"type":	"uint"
+		},
+		"746":	{
+			"name":	"Inv. DSP Versions x 2 (742-747)",
+			"value":	19,
+			"type":	"uint"
+		},
+		"747":	{
+			"name":	"Inv. DSP Versions x 2 (742-747)",
+			"value":	901,
+			"type":	"uint"
+		},
+		"748":	{
+			"name":	"Inv. Comm. Error Timeout [ms]",
+			"value":	15000,
+			"type":	"uint"
+		},
+		"749":	{
+			"name":	"ID (R&D Reserved)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"750":	{
+			"name":	"SEM Limit Ctrl. Mode (bit-field)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"751":	{
+			"name":	"SEM Sample Time [ms]",
+			"value":	0,
+			"type":	"int"
+		},
+		"752":	{
+			"name":	"SEM Weight Update Time [s]",
+			"value":	600,
+			"type":	"uint"
+		},
+		"753":	{
+			"name":	"Meter Telem Mode",
+			"value":	2,
+			"type":	"uint"
+		},
+		"754":	{
+			"name":	"SEM Site Max Power [W]",
+			"value":	-340282346638528859811704183484516925440,
+			"type":	"float"
+		},
+		"755":	{
+			"name":	"SEM Limit Mode",
+			"value":	0,
+			"type":	"uint"
+		},
+		"756":	{
+			"name":	"SEM Fallback Power Limit (%)",
+			"value":	65535,
+			"type":	"uint"
+		},
+		"757":	{
+			"name":	"RS485 Meter Func. (1)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"758":	{
+			"name":	"S0-1 Meter Func.",
+			"value":	0,
+			"type":	"uint"
+		},
+		"759":	{
+			"name":	"S0 Filter Time",
+			"value":	50,
+			"type":	"uint"
+		},
+		"760":	{
+			"name":	"S0-1 Pulses/kWh",
+			"value":	1000,
+			"type":	"uint"
+		},
+		"761":	{
+			"name":	"S0 Power Avg Period",
+			"value":	60000,
+			"type":	"uint"
+		},
+		"762":	{
+			"name":	"SEM Pos. Restraining Coefficient",
+			"value":	1,
+			"type":	"float"
+		},
+		"763":	{
+			"name":	"SEM Neg. Restraining Coefficient",
+			"value":	1,
+			"type":	"float"
+		},
+		"764":	{
+			"name":	"ConfTool ID (R&D Reserved)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"765":	{
+			"name":	"Full Telem Mode RTC Time",
+			"value":	0,
+			"type":	"uint"
+		},
+		"766":	{
+			"name":	"Cellular Enable",
+			"value":	1,
+			"type":	"uint"
+		},
+		"767":	{
+			"name":	"DynPwrCtrl Enable",
+			"value":	0,
+			"type":	"uint"
+		},
+		"768":	{
+			"name":	"DynPwrCtrl ActReactPolicy",
+			"value":	0,
+			"type":	"uint"
+		},
+		"769":	{
+			"name":	"DynPwrCtrl CosPhiQPref",
+			"value":	0,
+			"type":	"uint"
+		},
+		"770":	{
+			"name":	"DynPwrCtrl AppPowerLimit [VA]",
+			"value":	-340282346638528859811704183484516925440,
+			"type":	"float"
+		},
+		"771":	{
+			"name":	"DynPwrCtrl ActPowerRef [W]",
+			"value":	-340282346638528859811704183484516925440,
+			"type":	"float"
+		},
+		"772":	{
+			"name":	"DynPwrCtrl ReactPowerRef [VAR]",
+			"value":	-340282346638528859811704183484516925440,
+			"type":	"float"
+		},
+		"773":	{
+			"name":	"DynPwrCtrl CmdTimeout [Sec]",
+			"value":	60,
+			"type":	"uint"
+		},
+		"774":	{
+			"name":	"DynPwrCtrl FallbackActPower [%]",
+			"value":	100,
+			"type":	"float"
+		},
+		"775":	{
+			"name":	"DynPwrCtrl FallbackReactPower [%]",
+			"value":	0,
+			"type":	"float"
+		},
+		"776":	{
+			"name":	"DynPwrCtrl FallbackCosPhi",
+			"value":	1,
+			"type":	"float"
+		},
+		"777":	{
+			"name":	"DynPwrCtrl ActPowerRampUpRate [%/Min]",
+			"value":	5,
+			"type":	"float"
+		},
+		"778":	{
+			"name":	"DynPwrCtrl ActPowerRampDownRate [%/Min]",
+			"value":	5,
+			"type":	"float"
+		},
+		"779":	{
+			"name":	"DynPwrCtrl ReactPowerRampUpRate [%/Min]",
+			"value":	5,
+			"type":	"float"
+		},
+		"780":	{
+			"name":	"DynPwrCtrl ReactPowerRampDownRate [%/Min]",
+			"value":	5,
+			"type":	"float"
+		},
+		"781":	{
+			"name":	"DynPwrCtrl PhiChangeRate [Rad/Min]",
+			"value":	1.570796,
+			"type":	"float"
+		},
+		"782":	{
+			"name":	"Inverter Telem Timeout [ms]",
+			"value":	300000,
+			"type":	"uint"
+		},
+		"783":	{
+			"name":	"Inverter Telem Mode",
+			"value":	0,
+			"type":	"uint"
+		},
+		"784":	{
+			"name":	"Optimizer Telem Timeout [ms]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"785":	{
+			"name":	"Optimizer Telem Mode",
+			"value":	1,
+			"type":	"uint"
+		},
+		"786":	{
+			"name":	"Server Slaves Routing",
+			"value":	1,
+			"type":	"uint"
+		},
+		"787":	{
+			"name":	"Server S_OK Timeout [ms]",
+			"value":	120000,
+			"type":	"uint"
+		},
+		"788":	{
+			"name":	"Server KA Timeout [ms]",
+			"value":	120000,
+			"type":	"uint"
+		},
+		"789":	{
+			"name":	"Server NoAck Timeout [ms]",
+			"value":	300000,
+			"type":	"uint"
+		},
+		"790":	{
+			"name":	"Server Reconnect Timeout [min]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"791":	{
+			"name":	"Server Idle Timeout [min]",
+			"value":	15,
+			"type":	"uint"
+		},
+		"792":	{
+			"name":	"SMS Wakeup Enable",
+			"value":	1,
+			"type":	"uint"
+		},
+		"793":	{
+			"name":	"Home GW Ignore DIP-Switches",
+			"value":	0,
+			"type":	"uint"
+		},
+		"794":	{
+			"name":	"Server Flush Timeout (2) [ms]",
+			"value":	2700000,
+			"type":	"uint"
+		},
+		"795":	{
+			"name":	"Server Reconnect Timeout (2) [min]",
+			"value":	240,
+			"type":	"uint"
+		},
+		"796":	{
+			"name":	"Server Slaves Routing (2)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"797":	{
+			"name":	"Inverter Telem Timeout (2) [ms]",
+			"value":	900000,
+			"type":	"uint"
+		},
+		"798":	{
+			"name":	"Inverter Telem Mode (2)",
+			"value":	1,
+			"type":	"uint"
+		},
+		"799":	{
+			"name":	"Optimizer Telem Timeout (2) [ms]",
+			"value":	900000,
+			"type":	"uint"
+		},
+		"800":	{
+			"name":	"Optimizer Telem Mode (2)",
+			"value":	1,
+			"type":	"uint"
+		},
+		"801":	{
+			"name":	"Meter Telem Timeout (2) [ms]",
+			"value":	900000,
+			"type":	"uint"
+		},
+		"802":	{
+			"name":	"Meter Telem Mode (2)",
+			"value":	2,
+			"type":	"uint"
+		},
+		"803":	{
+			"name":	"Sensors Telem Timeout (2) [ms]",
+			"value":	900000,
+			"type":	"uint"
+		},
+		"804":	{
+			"name":	"Sensors Telem Mode (2)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"805":	{
+			"name":	"Auto-save Params [sec]",
+			"value":	259200,
+			"type":	"uint"
+		},
+		"806":	{
+			"name":	"Last params save time [sec]",
+			"value":	1580821798,
+			"type":	"uint"
+		},
+		"807":	{
+			"name":	"TCP data in [bytes]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"808":	{
+			"name":	"TCP data out [bytes]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"809":	{
+			"name":	"Server Authentication Enable",
+			"value":	0,
+			"type":	"uint"
+		},
+		"810":	{
+			"name":	"Server VPN Address (1)",
+			"value":	85,
+			"type":	"stringidx"
+		},
+		"811":	{
+			"name":	"ServerPort2",
+			"value":	22221,
+			"type":	"uint"
+		},
+		"812":	{
+			"name":	"UART Bridge Enable",
+			"value":	0,
+			"type":	"uint"
+		},
+		"813":	{
+			"name":	"UART Bridge HW Stream",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"814":	{
+			"name":	"System Lock",
+			"value":	0,
+			"type":	"uint"
+		},
+		"815":	{
+			"name":	"Grid Settings Enable 0",
+			"value":	2658369418,
+			"type":	"uint"
+		},
+		"816":	{
+			"name":	"Grid Settings Enable 1",
+			"value":	201293513,
+			"type":	"uint"
+		},
+		"817":	{
+			"name":	"Grid Settings Enable 2",
+			"value":	4282724322,
+			"type":	"uint"
+		},
+		"818":	{
+			"name":	"Grid Settings Enable 3",
+			"value":	16646143,
+			"type":	"uint"
+		},
+		"819":	{
+			"name":	"Grid Settings Enable 4",
+			"value":	3198154751,
+			"type":	"uint"
+		},
+		"820":	{
+			"name":	"Grid Settings Enable 5",
+			"value":	3198154751,
+			"type":	"uint"
+		},
+		"821":	{
+			"name":	"Grid Settings Enable x 4 (821-824)",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"822":	{
+			"name":	"Grid Settings Enable x 4 (821-824)",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"823":	{
+			"name":	"Grid Settings Enable x 4 (821-824)",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"824":	{
+			"name":	"Grid Settings Enable x 4 (821-824)",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"825":	{
+			"name":	"RS485 Meter Slave ID (2)",
+			"value":	2,
+			"type":	"uint"
+		},
+		"826":	{
+			"name":	"RS485 Meter Func. (2)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"827":	{
+			"name":	"Pairing Send Delay [sec]",
+			"value":	10,
+			"type":	"uint"
+		},
+		"828":	{
+			"name":	"PWM Period [usec]",
+			"value":	133,
+			"type":	"float"
+		},
+		"829":	{
+			"name":	"PWM Duty Cycle [%]",
+			"value":	50,
+			"type":	"float"
+		},
+		"830":	{
+			"name":	"PWM Delay [usec]",
+			"value":	500,
+			"type":	"uint"
+		},
+		"831":	{
+			"name":	"Battery Slave ID (1)",
+			"value":	15,
+			"type":	"uint"
+		},
+		"832":	{
+			"name":	"Telem Plan (0-1)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"833":	{
+			"name":	"Storage Backup SOE [%]",
+			"value":	0,
+			"type":	"float"
+		},
+		"834":	{
+			"name":	"Telem Mode",
+			"value":	1,
+			"type":	"uint"
+		},
+		"835":	{
+			"name":	"ZigBee PAN Hoping Timeout [sec]",
+			"value":	15,
+			"type":	"uint"
+		},
+		"836":	{
+			"name":	"Storage Telem Timeout [ms]",
+			"value":	300000,
+			"type":	"uint"
+		},
+		"837":	{
+			"name":	"Storage Telem Mode",
+			"value":	0,
+			"type":	"uint"
+		},
+		"838":	{
+			"name":	"Storage Telem Timeout (2) [ms]",
+			"value":	900000,
+			"type":	"uint"
+		},
+		"839":	{
+			"name":	"Storage Telem Mode (2)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"840":	{
+			"name":	"Storage Mode",
+			"value":	0,
+			"type":	"uint"
+		},
+		"841":	{
+			"name":	"Storage Backup Reserved Enable",
+			"value":	0,
+			"type":	"uint"
+		},
+		"842":	{
+			"name":	"Storage Ac Charge Policy",
+			"value":	1,
+			"type":	"uint"
+		},
+		"843":	{
+			"name":	"Storage Ac Charge Limit [kWh]",
+			"value":	0,
+			"type":	"float"
+		},
+		"844":	{
+			"name":	"Storage Battery Min Soe [%]",
+			"value":	10,
+			"type":	"float"
+		},
+		"845":	{
+			"name":	"Storage Battery Max Soe [%]",
+			"value":	100,
+			"type":	"float"
+		},
+		"846":	{
+			"name":	"Storage Tou Server Sync Enable",
+			"value":	1,
+			"type":	"uint"
+		},
+		"847":	{
+			"name":	"Storage Tou ID High 4 Bytes",
+			"value":	0,
+			"type":	"uint"
+		},
+		"848":	{
+			"name":	"Storage Tou ID Low 4 Bytes",
+			"value":	0,
+			"type":	"uint"
+		},
+		"849":	{
+			"name":	"Stat AC Consumption Start Year",
+			"value":	0,
+			"type":	"float"
+		},
+		"850":	{
+			"name":	"Stat AC Production Start Year",
+			"value":	0,
+			"type":	"float"
+		},
+		"851":	{
+			"name":	"UART 0 Baudrate",
+			"value":	7,
+			"type":	"uint"
+		},
+		"852":	{
+			"name":	"UART 1 Baudrate",
+			"value":	7,
+			"type":	"uint"
+		},
+		"853":	{
+			"name":	"Bus Master Broadcast Timeout [sec]",
+			"value":	300,
+			"type":	"uint"
+		},
+		"854":	{
+			"name":	"Storage Tou Table Filename",
+			"value":	86,
+			"type":	"stringidx"
+		},
+		"855":	{
+			"name":	"Cellular IMSI",
+			"value":	87,
+			"type":	"stringidx"
+		},
+		"856":	{
+			"name":	"Telem Plan Activated",
+			"value":	1,
+			"type":	"uint"
+		},
+		"857":	{
+			"name":	"RS485 Extender Enable",
+			"value":	0,
+			"type":	"uint"
+		},
+		"858":	{
+			"name":	"Telem Plan Mask (bit-field)",
+			"value":	3,
+			"type":	"uint"
+		},
+		"859":	{
+			"name":	"System Lock Grace Period [sec]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"860":	{
+			"name":	"System Lock Timer [sec]",
+			"value":	0,
+			"type":	"int"
+		},
+		"861":	{
+			"name":	"Bus Polling Delay [ms]",
+			"value":	0,
+			"type":	"int"
+		},
+		"862":	{
+			"name":	"My Phone Number",
+			"value":	88,
+			"type":	"stringidx"
+		},
+		"863":	{
+			"name":	"Storage Tou RTC Timestamp",
+			"value":	0,
+			"type":	"uint"
+		},
+		"864":	{
+			"name":	"Storage Tou Table Source",
+			"value":	4294967295,
+			"type":	"int"
+		},
+		"865":	{
+			"name":	"Bus Master ID",
+			"value":	0,
+			"type":	"uint"
+		},
+		"866":	{
+			"name":	"SunSpec S_OK Timeout",
+			"value":	0,
+			"type":	"uint"
+		},
+		"867":	{
+			"name":	"RS485-1 Baud SF",
+			"value":	0.990000,
+			"type":	"float"
+		},
+		"868":	{
+			"name":	"Storage Default Mode",
+			"value":	0,
+			"type":	"uint"
+		},
+		"869":	{
+			"name":	"Num Of Detected Strings",
+			"value":	0,
+			"type":	"uint"
+		},
+		"870":	{
+			"name":	"Optimizers Discovery Options (bit-field)",
+			"value":	1,
+			"type":	"uint"
+		},
+		"871":	{
+			"name":	"Optimizers Discovery Status (bit-field)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"872":	{
+			"name":	"Opt Telem Sync Slot [ms]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"873":	{
+			"name":	"Opt Telem Sync Delay [ms]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"874":	{
+			"name":	"Storage Power Limit [w]",
+			"value":	3300,
+			"type":	"uint"
+		},
+		"875":	{
+			"name":	"OptDiscovery discharge wait time [sec]",
+			"value":	8,
+			"type":	"uint"
+		},
+		"876":	{
+			"name":	"IO Log Level",
+			"value":	4,
+			"type":	"uint"
+		},
+		"877":	{
+			"name":	"IO Log Debug Module Group Permissions (bit-field)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"878":	{
+			"name":	"TCP Client Enable",
+			"value":	1,
+			"type":	"uint"
+		},
+		"879":	{
+			"name":	"TCP Listen Port",
+			"value":	0,
+			"type":	"uint"
+		},
+		"880":	{
+			"name":	"Server VPN Address (2)",
+			"value":	89,
+			"type":	"stringidx"
+		},
+		"881":	{
+			"name":	"Default GSM APN (1)",
+			"value":	90,
+			"type":	"stringidx"
+		},
+		"882":	{
+			"name":	"Battery Slave ID (2)",
+			"value":	14,
+			"type":	"uint"
+		},
+		"883":	{
+			"name":	"RS485 Meter Slave ID (3)",
+			"value":	3,
+			"type":	"uint"
+		},
+		"884":	{
+			"name":	"RS485 Meter Func. (3)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"885":	{
+			"name":	"Buzzer Time [ms]",
+			"value":	25,
+			"type":	"uint"
+		},
+		"886":	{
+			"name":	"SEM Ext. Production Max Power [W]",
+			"value":	0,
+			"type":	"float"
+		},
+		"887":	{
+			"name":	"SEM Limit Ctrl. Lower Deadband [W]",
+			"value":	40,
+			"type":	"float"
+		},
+		"888":	{
+			"name":	"ZigBee Options (bit-field)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"889":	{
+			"name":	"Backup HW Installed",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"890":	{
+			"name":	"ZigBee Meter Func. (1)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"891":	{
+			"name":	"ZigBee Meter Func. (2)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"892":	{
+			"name":	"ZigBee Meter Func. (3)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"893":	{
+			"name":	"ZigBee Meter Index (1)",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"894":	{
+			"name":	"ZigBee Meter Index (2)",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"895":	{
+			"name":	"ZigBee Meter Index (3)",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"896":	{
+			"name":	"SEM Site Limit Backoff",
+			"value":	0,
+			"type":	"float"
+		},
+		"897":	{
+			"name":	"ZigBee Alarm Index",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"898":	{
+			"name":	"Storage Backup Power Limit [w]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"899":	{
+			"name":	"LoadControl Telem Timeout [ms]",
+			"value":	300000,
+			"type":	"uint"
+		},
+		"900":	{
+			"name":	"LoadControl Telem Mode",
+			"value":	0,
+			"type":	"uint"
+		},
+		"901":	{
+			"name":	"LoadControl Telem Timeout (2) [ms]",
+			"value":	900000,
+			"type":	"uint"
+		},
+		"902":	{
+			"name":	"LoadControl Telem Mode (2)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"903":	{
+			"name":	"Fast Meter Enable",
+			"value":	1,
+			"type":	"uint"
+		},
+		"904":	{
+			"name":	"SEM Power Reducer Method",
+			"value":	2,
+			"type":	"uint"
+		},
+		"905":	{
+			"name":	"SEM Power Reducer Kp",
+			"value":	0,
+			"type":	"float"
+		},
+		"906":	{
+			"name":	"SEM Power Reducer Ki",
+			"value":	0.930000,
+			"type":	"float"
+		},
+		"907":	{
+			"name":	"SEM Power Reducer complementary Deadband",
+			"value":	100,
+			"type":	"float"
+		},
+		"908":	{
+			"name":	"SEM Storage Charge Kp",
+			"value":	1,
+			"type":	"float"
+		},
+		"909":	{
+			"name":	"SEM Storage Charge Ki",
+			"value":	1,
+			"type":	"float"
+		},
+		"910":	{
+			"name":	"SEM Storage Discharge Kp",
+			"value":	1,
+			"type":	"float"
+		},
+		"911":	{
+			"name":	"SEM Storage Discharge Ki",
+			"value":	1,
+			"type":	"float"
+		},
+		"912":	{
+			"name":	"SEM Storage Deadband [w]",
+			"value":	20,
+			"type":	"float"
+		},
+		"913":	{
+			"name":	"SEM Storage Virtual Meter Coefficient",
+			"value":	0.300000,
+			"type":	"float"
+		},
+		"914":	{
+			"name":	"DailyTelem Timeout [ms]",
+			"value":	172800000,
+			"type":	"uint"
+		},
+		"915":	{
+			"name":	"SEM Export Kill Switch Time[ms]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"916":	{
+			"name":	"SEM Power Reducer Zero Threshold[%]",
+			"value":	0,
+			"type":	"float"
+		},
+		"917":	{
+			"name":	"Alarm Ctrl Server Connect",
+			"value":	0,
+			"type":	"uint"
+		},
+		"918":	{
+			"name":	"SEM Power Reducer Kp Down",
+			"value":	0,
+			"type":	"float"
+		},
+		"919":	{
+			"name":	"SEM Power Reducer Ki Down",
+			"value":	0.930000,
+			"type":	"float"
+		},
+		"920":	{
+			"name":	"SEM Power Reducer Kp Up",
+			"value":	0,
+			"type":	"float"
+		},
+		"921":	{
+			"name":	"SEM Power Reducer Ki Up",
+			"value":	0.500000,
+			"type":	"float"
+		},
+		"922":	{
+			"name":	"SEM Limit Ctrl. Lower Slowband [W]",
+			"value":	200,
+			"type":	"float"
+		},
+		"923":	{
+			"name":	"SEM Limit Ctrl. Slowband Coefficient",
+			"value":	0.650000,
+			"type":	"float"
+		},
+		"924":	{
+			"name":	"SEM Load Control On-Time Estimation Method",
+			"value":	0,
+			"type":	"uint"
+		},
+		"925":	{
+			"name":	"Bus Num of Inverters (neighbors)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"926":	{
+			"name":	"Bus Event Time (sec)",
+			"value":	3600,
+			"type":	"uint"
+		},
+		"927":	{
+			"name":	"Bus Protocol Version",
+			"value":	0,
+			"type":	"uint"
+		},
+		"928":	{
+			"name":	"Wifi Discovery Timeout [ms]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"929":	{
+			"name":	"Reserved 929",
+			"value":	1023,
+			"type":	"uint"
+		},
+		"930":	{
+			"name":	"UDP Broadcast Port",
+			"value":	1900,
+			"type":	"uint"
+		},
+		"931":	{
+			"name":	"Tesla HeatMode Start Temp [c]",
+			"value":	0,
+			"type":	"int"
+		},
+		"932":	{
+			"name":	"Tesla HeatMode Range",
+			"value":	10,
+			"type":	"uint"
+		},
+		"933":	{
+			"name":	"Daily reset minute of day",
+			"value":	0,
+			"type":	"uint"
+		},
+		"934":	{
+			"name":	"Daily reset alert time [min]",
+			"value":	1,
+			"type":	"uint"
+		},
+		"935":	{
+			"name":	"Storage Backup Reserved Charge Mode",
+			"value":	3,
+			"type":	"uint"
+		},
+		"936":	{
+			"name":	"Storage Backup Min Soe [%]",
+			"value":	15,
+			"type":	"float"
+		},
+		"937":	{
+			"name":	"Storage Min Soe Charge Hysteresis",
+			"value":	1,
+			"type":	"float"
+		},
+		"938":	{
+			"name":	"Storage Min Soe No Discharge Hysteresis",
+			"value":	2,
+			"type":	"float"
+		},
+		"939":	{
+			"name":	"ZB PAN ID (High)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"940":	{
+			"name":	"Meter PT Val (1)",
+			"value":	1,
+			"type":	"uint"
+		},
+		"941":	{
+			"name":	"Meter Options (1)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"942":	{
+			"name":	"Meter PT Val (2)",
+			"value":	1,
+			"type":	"uint"
+		},
+		"943":	{
+			"name":	"Meter Options (2)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"944":	{
+			"name":	"Meter PT Val (3)",
+			"value":	1,
+			"type":	"uint"
+		},
+		"945":	{
+			"name":	"Meter Options (3)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"946":	{
+			"name":	"FW Code",
+			"value":	0,
+			"type":	"uint"
+		},
+		"947":	{
+			"name":	"Inv. Bus Mngr Enabled",
+			"value":	1,
+			"type":	"uint"
+		},
+		"948":	{
+			"name":	"Minimum PLC Cmd Time",
+			"value":	1500,
+			"type":	"uint"
+		},
+		"949":	{
+			"name":	"TCB Bus Mngr Enabled",
+			"value":	0,
+			"type":	"uint"
+		},
+		"950":	{
+			"name":	"Wi-Fi Tx Power",
+			"value":	4,
+			"type":	"uint"
+		},
+		"951":	{
+			"name":	"Battery 1 Voltage Delta",
+			"value":	0,
+			"type":	"float"
+		},
+		"952":	{
+			"name":	"Battery 2 Voltage Delta",
+			"value":	0,
+			"type":	"float"
+		},
+		"953":	{
+			"name":	"Voltage Mismatch Calculation Time [Min]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"954":	{
+			"name":	"Storage Backup Sleep SOE",
+			"value":	10,
+			"type":	"float"
+		},
+		"955":	{
+			"name":	"Enable EVSE",
+			"value":	0,
+			"type":	"uint"
+		},
+		"956":	{
+			"name":	"Evse Slave ID (0)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"957":	{
+			"name":	"SEM Storage PI Low Power Threshold",
+			"value":	-300,
+			"type":	"float"
+		},
+		"958":	{
+			"name":	"SEM Storage Low Power Kp",
+			"value":	0.500000,
+			"type":	"float"
+		},
+		"959":	{
+			"name":	"SEM Storage Low Power Ki",
+			"value":	0.500000,
+			"type":	"float"
+		},
+		"960":	{
+			"name":	"Extanded Data retention Enabled",
+			"value":	0,
+			"type":	"uint"
+		},
+		"961":	{
+			"name":	"Extanded Data retention threshold [%]",
+			"value":	100,
+			"type":	"uint"
+		},
+		"962":	{
+			"name":	"Server Flush Timeout (3) [ms]",
+			"value":	10800000,
+			"type":	"uint"
+		},
+		"963":	{
+			"name":	"Server Reconnect Timeout (3) [min]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"964":	{
+			"name":	"Server Slaves Routing (3)",
+			"value":	1,
+			"type":	"uint"
+		},
+		"965":	{
+			"name":	"Inverter Telem Timeout (3) [ms]",
+			"value":	3600000,
+			"type":	"uint"
+		},
+		"966":	{
+			"name":	"Inverter Telem Mode (3)",
+			"value":	1,
+			"type":	"uint"
+		},
+		"967":	{
+			"name":	"Optimizer Telem Timeout (3) [ms]",
+			"value":	900000,
+			"type":	"uint"
+		},
+		"968":	{
+			"name":	"Optimizer Telem Mode (3)",
+			"value":	65535,
+			"type":	"uint"
+		},
+		"969":	{
+			"name":	"Meter Telem Timeout (3) [ms]",
+			"value":	900000,
+			"type":	"uint"
+		},
+		"970":	{
+			"name":	"Meter Telem Mode (3)",
+			"value":	65535,
+			"type":	"uint"
+		},
+		"971":	{
+			"name":	"Sensors Telem Timeout (3) [ms]",
+			"value":	900000,
+			"type":	"uint"
+		},
+		"972":	{
+			"name":	"Sensors Telem Mode (3)",
+			"value":	65535,
+			"type":	"uint"
+		},
+		"973":	{
+			"name":	"Storage Telem Timeout (3) [ms]",
+			"value":	900000,
+			"type":	"uint"
+		},
+		"974":	{
+			"name":	"Storage Telem Mode (3)",
+			"value":	65535,
+			"type":	"uint"
+		},
+		"975":	{
+			"name":	"LoadControl Telem Timeout (3) [ms]",
+			"value":	900000,
+			"type":	"uint"
+		},
+		"976":	{
+			"name":	"LoadControl Telem Mode (3)",
+			"value":	65535,
+			"type":	"uint"
+		},
+		"977":	{
+			"name":	"Support Legacy Features",
+			"value":	0,
+			"type":	"uint"
+		},
+		"978":	{
+			"name":	"Reserved 978",
+			"value":	0,
+			"type":	"uint"
+		},
+		"979":	{
+			"name":	"OTA Number Of Threads Supported",
+			"value":	0,
+			"type":	"uint"
+		},
+		"980":	{
+			"name":	"EVSE Activation (bit-field)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"981":	{
+			"name":	"Modbus forward Retries",
+			"value":	3,
+			"type":	"uint"
+		},
+		"982":	{
+			"name":	"Modbus forward Timeout",
+			"value":	800,
+			"type":	"uint"
+		},
+		"983":	{
+			"name":	"Load Priorities",
+			"value":	0,
+			"type":	"uint"
+		},
+		"984":	{
+			"name":	"Meter Telem Type",
+			"value":	0,
+			"type":	"uint"
+		},
+		"985":	{
+			"name":	"Load Priorities Mode",
+			"value":	0,
+			"type":	"uint"
+		},
+		"986":	{
+			"name":	"Meters CT's",
+			"value":	0,
+			"type":	"uint"
+		},
+		"987":	{
+			"name":	"Meters CT's",
+			"value":	0,
+			"type":	"uint"
+		},
+		"988":	{
+			"name":	"Meters CT's",
+			"value":	0,
+			"type":	"uint"
+		},
+		"989":	{
+			"name":	"Meters CT's",
+			"value":	0,
+			"type":	"uint"
+		},
+		"990":	{
+			"name":	"Meters CT's",
+			"value":	0,
+			"type":	"uint"
+		},
+		"991":	{
+			"name":	"Meters CT's",
+			"value":	0,
+			"type":	"uint"
+		},
+		"992":	{
+			"name":	"Meters CT's",
+			"value":	0,
+			"type":	"uint"
+		},
+		"993":	{
+			"name":	"Meters CT's",
+			"value":	0,
+			"type":	"uint"
+		},
+		"994":	{
+			"name":	"Meters CT's",
+			"value":	0,
+			"type":	"uint"
+		},
+		"995":	{
+			"name":	"Meters CT's",
+			"value":	0,
+			"type":	"uint"
+		},
+		"996":	{
+			"name":	"Meters CT's",
+			"value":	0,
+			"type":	"uint"
+		},
+		"997":	{
+			"name":	"Meters CT's",
+			"value":	0,
+			"type":	"uint"
+		},
+		"998":	{
+			"name":	"Meters SN",
+			"value":	0,
+			"type":	"uint"
+		},
+		"999":	{
+			"name":	"Meters SN",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1000":	{
+			"name":	"Meters SN",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1001":	{
+			"name":	"Storage reverse current limit factor",
+			"value":	3,
+			"type":	"uint"
+		},
+		"1002":	{
+			"name":	"Storage Pre Standby (bit-field)",
+			"value":	3,
+			"type":	"uint"
+		},
+		"1003":	{
+			"name":	"Storage force sleep DC gap",
+			"value":	50,
+			"type":	"uint"
+		},
+		"1004":	{
+			"name":	"Storage SW Config (bit-field)",
+			"value":	63,
+			"type":	"uint"
+		},
+		"1005":	{
+			"name":	"Diesel Generator Enable",
+			"value":	1,
+			"type":	"uint"
+		},
+		"1006":	{
+			"name":	"EVSE Debug Meas timeout (enable)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1007":	{
+			"name":	"Enable Optimizer Error Event",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1008":	{
+			"name":	"Storage custom configuration enable",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1009":	{
+			"name":	"Params last save type",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1010":	{
+			"name":	"Inverter Version sync",
+			"value":	1,
+			"type":	"uint"
+		},
+		"1011":	{
+			"name":	"Internet Protocol Version",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1012":	{
+			"name":	"URL of Meter XML file",
+			"value":	91,
+			"type":	"stringidx"
+		},
+		"1013":	{
+			"name":	"Secured Server IP1",
+			"value":	92,
+			"type":	"stringidx"
+		},
+		"1014":	{
+			"name":	"Secured Server IP2",
+			"value":	93,
+			"type":	"stringidx"
+		},
+		"1015":	{
+			"name":	"Secured Server IP3",
+			"value":	94,
+			"type":	"stringidx"
+		},
+		"1016":	{
+			"name":	"Secured Server Port1",
+			"value":	443,
+			"type":	"uint"
+		},
+		"1017":	{
+			"name":	"Secured Server Port2",
+			"value":	443,
+			"type":	"uint"
+		},
+		"1018":	{
+			"name":	"Secured Server Port3",
+			"value":	443,
+			"type":	"uint"
+		},
+		"1019":	{
+			"name":	"Server Security Protocol",
+			"value":	1,
+			"type":	"uint"
+		},
+		"1020":	{
+			"name":	"Filename",
+			"value":	95,
+			"type":	"stringidx"
+		},
+		"1021":	{
+			"name":	"SSL Peer Verify",
+			"value":	1,
+			"type":	"uint"
+		},
+		"1022":	{
+			"name":	"URL of NTP host",
+			"value":	96,
+			"type":	"stringidx"
+		},
+		"1023":	{
+			"name":	"Inverter Bus Slaves",
+			"value":	3,
+			"type":	"uint"
+		},
+		"1024":	{
+			"name":	"Inverter Slaves Number",
+			"value":	3,
+			"type":	"uint"
+		},
+		"1025":	{
+			"name":	"Inverter Slave ID 0",
+			"value":	1351614434,
+			"type":	"uint"
+		},
+		"1026":	{
+			"name":	"Inverter Slave ID 1",
+			"value":	1351614435,
+			"type":	"uint"
+		},
+		"1027":	{
+			"name":	"Inverter Slave ID 2",
+			"value":	1351614436,
+			"type":	"uint"
+		},
+		"1028":	{
+			"name":	"Inverter Slave ID 3",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1029":	{
+			"name":	"RS485-3 Baudrate",
+			"value":	7,
+			"type":	"uint"
+		},
+		"1030":	{
+			"name":	"Grid Services options (bit-field)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1031":	{
+			"name":	"DG Modbus Control Mode",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1032":	{
+			"name":	"DG Modbus Grid Demand State",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1033":	{
+			"name":	"BUI Enable",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1034":	{
+			"name":	"BUI Device SE-Id",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1035":	{
+			"name":	"Storage User Backup Reserved",
+			"value":	0,
+			"type":	"float"
+		},
+		"1036":	{
+			"name":	"Storage User Backup Reserved Expiry UTC",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1037":	{
+			"name":	"Storage GS Backup Reserved",
+			"value":	0,
+			"type":	"float"
+		},
+		"1038":	{
+			"name":	"Storage GS Backup Reserved Expiry UTC",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1039":	{
+			"name":	"Storage GS Backup Reserved Charge Mode",
+			"value":	3,
+			"type":	"uint"
+		},
+		"1040":	{
+			"name":	"Scheduled UTC Reset",
+			"value":	4294967295,
+			"type":	"uint"
+		},
+		"1041":	{
+			"name":	"Storage User Backup Reserved Charge Mode",
+			"value":	3,
+			"type":	"uint"
+		},
+		"1042":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1043":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1044":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1045":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1046":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1047":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1048":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1049":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1050":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1051":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1052":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1053":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1054":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1055":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1056":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1057":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1058":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1059":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1060":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1061":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1062":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1063":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1064":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1065":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1066":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1067":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1068":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1069":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1070":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1071":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1072":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1073":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1074":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1075":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1076":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1077":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1078":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1079":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1080":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1081":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1082":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1083":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1084":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1085":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1086":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1087":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1088":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1089":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1090":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1091":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1092":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1093":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1094":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1095":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1096":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1097":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1098":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1099":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1100":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1101":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1102":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1103":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1104":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1105":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1106":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1107":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1108":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1109":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1110":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1111":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1112":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1113":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1114":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1115":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1116":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1117":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1118":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1119":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1120":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1121":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1122":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1123":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1124":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1125":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1126":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1127":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1128":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1129":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1130":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1131":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1132":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1133":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1134":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1135":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1136":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1137":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1138":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1139":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1140":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1141":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1142":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1143":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1144":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1145":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1146":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1147":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1148":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1149":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1150":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1151":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1152":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1153":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1154":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1155":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1156":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1157":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1158":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1159":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1160":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1161":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1162":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1163":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1164":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1165":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1166":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1167":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1168":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1169":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1170":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1171":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1172":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1173":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1174":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1175":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1176":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1177":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1178":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1179":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1180":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1181":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1182":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1183":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1184":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1185":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1186":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1187":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1188":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1189":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1190":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1191":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1192":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1193":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1194":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1195":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1196":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1197":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1198":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1199":	{
+			"name":	"PARAM_RESERVED_PORTIA_ST (1042-1199)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1200":	{
+			"name":	"Enable DCDC",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1201":	{
+			"name":	"DCDC SN (0)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1202":	{
+			"name":	"Restore critical data En",
+			"value":	1,
+			"type":	"uint"
+		},
+		"1203":	{
+			"name":	"Server VPN Type",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1204":	{
+			"name":	"WIFI SSID Checksum",
+			"value":	66,
+			"type":	"uint"
+		},
+		"1205":	{
+			"name":	"SE Battery modbus id",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1206":	{
+			"name":	"Inverter Model",
+			"value":	15,
+			"type":	"int"
+		},
+		"1207":	{
+			"name":	"Inverter Country",
+			"value":	6,
+			"type":	"int"
+		},
+		"1208":	{
+			"name":	"Digital Bus Idle TimeOut",
+			"value":	50,
+			"type":	"uint"
+		},
+		"1209":	{
+			"name":	"Bus Master Port",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1210":	{
+			"name":	"AC Coupled Storage (Product Feature)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1211":	{
+			"name":	"Sensor 3 Type",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1212":	{
+			"name":	"Sensor 4 Type",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1213":	{
+			"name":	"Sensor 5 Type",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1214":	{
+			"name":	"Sensor 3 Range",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1215":	{
+			"name":	"Sensor 4 Range",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1216":	{
+			"name":	"Sensor 5 Range",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1217":	{
+			"name":	"Sensor 3 X0",
+			"value":	0,
+			"type":	"float"
+		},
+		"1218":	{
+			"name":	"Sensor 3 Y0",
+			"value":	0,
+			"type":	"float"
+		},
+		"1219":	{
+			"name":	"Sensor 3 X1",
+			"value":	0,
+			"type":	"float"
+		},
+		"1220":	{
+			"name":	"Sensor 3 Y1",
+			"value":	0,
+			"type":	"float"
+		},
+		"1221":	{
+			"name":	"Sensor 4 X0",
+			"value":	0,
+			"type":	"float"
+		},
+		"1222":	{
+			"name":	"Sensor 4 Y0",
+			"value":	0,
+			"type":	"float"
+		},
+		"1223":	{
+			"name":	"Sensor 4 X1",
+			"value":	0,
+			"type":	"float"
+		},
+		"1224":	{
+			"name":	"Sensor 4 Y1",
+			"value":	0,
+			"type":	"float"
+		},
+		"1225":	{
+			"name":	"Sensor 5 X0",
+			"value":	0,
+			"type":	"float"
+		},
+		"1226":	{
+			"name":	"Sensor 5 Y0",
+			"value":	0,
+			"type":	"float"
+		},
+		"1227":	{
+			"name":	"Sensor 5 X1",
+			"value":	0,
+			"type":	"float"
+		},
+		"1228":	{
+			"name":	"Sensor 5 Y1",
+			"value":	0,
+			"type":	"float"
+		},
+		"1229":	{
+			"name":	"Num of Zigbee Slaves ",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1230":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1231":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1232":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1233":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1234":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1235":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1236":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1237":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1238":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1239":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1240":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1241":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1242":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1243":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1244":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1245":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1246":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1247":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1248":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1249":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1250":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1251":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1252":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1253":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1254":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1255":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1256":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1257":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1258":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1259":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1260":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1261":	{
+			"name":	"Zigbee Num Of Slaves x 32 (1230-1261)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1262":	{
+			"name":	"48v battery profile identifier",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1263":	{
+			"name":	"Evse Slave ID (1)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1264":	{
+			"name":	"Evse Slave ID (2)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1265":	{
+			"name":	"Evse Slave ID (3)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1266":	{
+			"name":	"Evse Slave Product Type ID (0)",
+			"value":	0,
+			"type":	"int"
+		},
+		"1267":	{
+			"name":	"Evse Slave Product Type ID (1)",
+			"value":	0,
+			"type":	"int"
+		},
+		"1268":	{
+			"name":	"Evse Slave Product Type ID (2)",
+			"value":	0,
+			"type":	"int"
+		},
+		"1269":	{
+			"name":	"Evse Slave Product Type ID (3)",
+			"value":	0,
+			"type":	"int"
+		},
+		"1270":	{
+			"name":	"AC Cable Gauge",
+			"value":	8,
+			"type":	"int"
+		},
+		"1271":	{
+			"name":	"AC Conduit Length",
+			"value":	6.090000,
+			"type":	"float"
+		},
+		"1272":	{
+			"name":	"Pie Meter I/E Enable",
+			"value":	0,
+			"type":	"int"
+		},
+		"1273":	{
+			"name":	"VersionBuild CI",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1274":	{
+			"name":	"Hide Storedge Menus",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1275":	{
+			"name":	"Lab Test Param 01",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1276":	{
+			"name":	"Lab Test Param 02",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1277":	{
+			"name":	"Static delta Voltage Drop",
+			"value":	0,
+			"type":	"float"
+		},
+		"1278":	{
+			"name":	"Disable Compensation Factor",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1279":	{
+			"name":	"Ac relay break time [ms]",
+			"value":	100,
+			"type":	"uint"
+		},
+		"1280":	{
+			"name":	"Grid V nominal for EVSE SA",
+			"value":	240,
+			"type":	"uint"
+		},
+		"1281":	{
+			"name":	"System Monitoring Event Interval [ms]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1282":	{
+			"name":	"Circuit Breaker Protection Configuration",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1283":	{
+			"name":	"Circuit Breaker Protection Reference [A]",
+			"value":	0,
+			"type":	"float"
+		},
+		"1284":	{
+			"name":	"PARAM_MONITORING_DETAILS_INSTALLER_ID",
+			"value":	0,
+			"type":	"stringidx"
+		},
+		"1285":	{
+			"name":	"PARAM_MONITORING_DETAILS_ACCOUNT_ID",
+			"value":	0,
+			"type":	"stringidx"
+		},
+		"1286":	{
+			"name":	"PARAM_MONITORING_DETAILS_SITE_ID",
+			"value":	0,
+			"type":	"stringidx"
+		},
+		"1287":	{
+			"name":	"Sync lock",
+			"value":	0,
+			"type":	"int"
+		},
+		"1288":	{
+			"name":	"Fw Sync Enable",
+			"value":	0,
+			"type":	"int"
+		},
+		"1289":	{
+			"name":	"Dynamic Site Limit Timeout [sec]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1290":	{
+			"name":	"Cell event period [min]",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1291":	{
+			"name":	"Cellular ICCID",
+			"value":	0,
+			"type":	"stringidx"
+		},
+		"1292":	{
+			"name":	"Enable Fast DSP Upgrade",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1293":	{
+			"name":	"production factor",
+			"value":	0,
+			"type":	"float"
+		},
+		"1294":	{
+			"name":	"Auto server config enable",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1295":	{
+			"name":	"Portia Golden Mode",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1296":	{
+			"name":	"Disable Zigbee Tunneling",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1297":	{
+			"name":	"Cellular hard reset timeout [min]",
+			"value":	90,
+			"type":	"uint"
+		},
+		"1298":	{
+			"name":	"Inverter Slave Position 0",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1299":	{
+			"name":	"Inverter Slave Position 1",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1300":	{
+			"name":	"Inverter Slave Position 2",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1301":	{
+			"name":	"Inverter Slave Position 3",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1302":	{
+			"name":	"Block RS485 options",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1303":	{
+			"name":	"4BOX Enable",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1304":	{
+			"name":	"4BOX ID",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1305":	{
+			"name":	"Modbus wrapper debug external Se Id",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1306":	{
+			"name":	"Modbus wrapper debug external Modbus Id",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1307":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1308":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1309":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1310":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1311":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1312":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1313":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1314":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1315":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1316":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1317":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1318":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1319":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1320":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1321":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1322":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1323":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1324":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1325":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1326":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1327":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1328":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1329":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1330":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1331":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1332":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1333":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1334":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1335":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1336":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1337":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1338":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1339":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1340":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1341":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1342":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1343":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1344":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1345":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1346":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1347":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1348":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1349":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1350":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1351":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1352":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1353":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1354":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1355":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1356":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1357":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1358":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1359":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1360":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1361":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1362":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1363":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1364":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1365":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1366":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1367":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1368":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1369":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1370":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1371":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1372":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1373":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1374":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1375":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1376":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1377":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1378":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1379":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1380":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1381":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1382":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1383":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1384":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1385":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1386":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1387":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1388":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1389":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1390":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1391":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1392":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1393":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1394":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1395":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1396":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1397":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1398":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1399":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1400":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1401":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1402":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1403":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1404":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1405":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1406":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1407":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1408":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1409":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1410":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1411":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1412":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1413":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1414":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1415":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1416":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1417":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1418":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1419":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1420":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1421":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1422":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1423":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1424":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1425":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1426":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1427":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1428":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1429":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1430":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1431":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1432":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1433":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1434":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1435":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1436":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1437":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1438":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1439":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1440":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1441":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1442":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1443":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1444":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1445":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1446":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1447":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1448":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1449":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1450":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1451":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1452":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1453":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1454":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1455":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1456":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1457":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1458":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1459":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1460":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1461":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1462":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1463":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1464":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1465":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1466":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1467":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1468":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1469":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1470":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1471":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1472":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1473":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1474":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1475":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1476":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1477":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1478":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1479":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1480":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1481":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1482":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1483":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1484":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1485":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1486":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1487":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1488":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1489":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1490":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1491":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1492":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1493":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1494":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1495":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1496":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1497":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1498":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1499":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		},
+		"1500":	{
+			"name":	"PARAM_RESERVED_PORTIA_LINUX (1305-1500)",
+			"value":	0,
+			"type":	"uint"
+		}
+	},
+	"StrParams":	{
+		"0":	{
+			"value":	"0.0.0.0",
+			"type":	"string"
+		},
+		"1":	{
+			"value":	"0.0.0.0",
+			"type":	"string"
+		},
+		"2":	{
+			"value":	"0.0.0.0",
+			"type":	"string"
+		},
+		"3":	{
+			"value":	"0.0.0.0",
+			"type":	"string"
+		},
+		"4":	{
+			"value":	"prod2.solaredge.com",
+			"type":	"string"
+		},
+		"5":	{
+			"value":	"prod2.solaredge.com",
+			"type":	"string"
+		},
+		"6":	{
+			"value":	"prod2.solaredge.com",
+			"type":	"string"
+		},
+		"7":	{
+			"value":	"12312312",
+			"type":	"string"
+		},
+		"8":	{
+			"value":	"NONE",
+			"type":	"string"
+		},
+		"9":	{
+			"value":	"------",
+			"type":	"string"
+		},
+		"10":	{
+			"value":	"500FFFE4",
+			"type":	"string"
+		},
+		"11":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"12":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"13":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"14":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"15":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"16":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"17":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"18":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"19":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"20":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"21":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"22":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"23":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"24":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"25":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"26":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"27":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"28":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"29":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"30":	{
+			"value":	"255.255.255.255",
+			"type":	"string"
+		},
+		"31":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"32":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"33":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"34":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"35":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"36":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"37":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"38":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"39":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"40":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"41":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"42":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"43":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"44":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"45":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"46":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"47":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"48":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"49":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"50":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"51":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"52":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"53":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"54":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"55":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"56":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"57":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"58":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"59":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"60":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"61":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"62":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"63":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"64":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"65":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"66":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"67":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"68":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"69":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"70":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"71":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"72":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"73":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"74":	{
+			"value":	"JSEU048FF0",
+			"type":	"string"
+		},
+		"75":	{
+			"value":	"AP1186B-PT-39-FW1",
+			"type":	"string"
+		},
+		"76":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"77":	{
+			"value":	"SOLAREDGE0",
+			"type":	"string"
+		},
+		"78":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"79":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"80":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"81":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"82":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"83":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"84":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"85":	{
+			"value":	"aeris.solaredge.com",
+			"type":	"string"
+		},
+		"86":	{
+			"value":	"N/A",
+			"type":	"string"
+		},
+		"87":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"88":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"89":	{
+			"value":	"prod2.solaredge.com",
+			"type":	"string"
+		},
+		"90":	{
+			"value":	"iot.aer.net",
+			"type":	"string"
+		},
+		"91":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"92":	{
+			"value":	"https://prodssl.solaredge.com",
+			"type":	"string"
+		},
+		"93":	{
+			"value":	"https://prodssl.solaredge.com",
+			"type":	"string"
+		},
+		"94":	{
+			"value":	"https://prodssl.solaredge.com",
+			"type":	"string"
+		},
+		"95":	{
+			"value":	"Version_3_2150_2",
+			"type":	"string"
+		},
+		"96":	{
+			"value":	"pool.ntp.org",
+			"type":	"string"
+		},
+		"97":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"98":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"99":	{
+			"value":	"",
+			"type":	"string"
+		},
+		"100":	{
+			"value":	"",
+			"type":	"string"
+		}
+	}
+}
